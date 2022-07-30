@@ -1,0 +1,28 @@
+{
+  "name": "getting-started-with-ceramic",
+  "description": "Webcomponent getting-started-with-ceramic following open-wc recommendations",
+  "license": "MIT",
+  "author": "getting-started-with-ceramic",
+  "version": "0.0.0",
+  "main": "index.js",
+  "module": "index.js",
+  "scripts": {
+    "analyze": "cem analyze --litelement",
+    "start": "web-dev-server"
+  },
+  "dependencies": {
+    "@ceramicnetwork/blockchain-utils-linking": "^2.0.7",
+    "@ceramicnetwork/http-client": "^2.3.0",
+    "@glazed/did-datastore": "^0.3.2",
+    "@glazed/did-session": "^0.1.1",
+    "lit": "^2.0.2"
+  },
+  "devDependencies": {
+    "@custom-elements-manifest/analyzer": "^0.4.17",
+    "@web/dev-server": "^0.1.28",
+    "dids": "^3.2.0",
+    "key-did-provider-ed25519": "^2.0.1",
+    "key-did-resolver": "^2.0.5"
+  },
+  "customElements": "custom-elements.json"
+}
