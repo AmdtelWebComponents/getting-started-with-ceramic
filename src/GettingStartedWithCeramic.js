@@ -108,7 +108,7 @@ export class GettingStartedWithCeramic extends LitElement {
   render() {
     return html`
     <div class="Header">
-        <h1 id="pageTitle">Getting Started With Ceramic</h1>
+        <h1 id="pageTitle">Getting Started With Ceramic with open-wc</h1>
         <button id="walletBtn">Connect Wallet</button>
     </div>
     <div class="Update-Profile BodyContainer">
